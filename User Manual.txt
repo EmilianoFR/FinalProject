@@ -1,0 +1,26 @@
+Izzys Shelter App is a gui application designed to allow users to
+navigate through an animal shelters current "inventory" of animals 
+available to adopt. 
+
+The program works by creating a main window that has tw buttons, one
+that leads you to a catalog of the current animals available with buttons
+on the page that will provide the animals basic information such as
+their given name, age, gender and if they have been neutered or spayed.
+The second button on the main window opens an inquiry form that the user
+can then fill out with their contact information so that they can get
+in touch with the shelter in regards to adopting one of the animals posted
+in the applpication. 
+
+From the shelters perspective they can go in and add new animals whenever by
+creating new variables with the new animals information, or if an animal 
+gets adopted their information can simply be swapped out with another so that
+the "slot" remains the same but changes to a new animal. All information
+regarding the pets is stored in a class seperate from the main programs class
+so that it can be easily formatted and accessed when updating their system.
+
+The inquiry form window prompts the user to enter basic contact information
+such as their name, phone, email, and also the name of the pet they're inquiring 
+for. To prevent users from entering invalid information, the text boxes are
+programmed to only accept certain characters depending on the information that's
+meant to go in the text box. For example numbers are not able to be typed within 
+the "Name" boxes and letters can't be entered within the "Phone" box. 
